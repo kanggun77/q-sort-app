@@ -1,0 +1,1 @@
+export function Button({ children, className, onClick }) { return <button className={`rounded px-4 py-2 bg-blue-500 text-white ${className}`} onClick={onClick}>{children}</button>; }
